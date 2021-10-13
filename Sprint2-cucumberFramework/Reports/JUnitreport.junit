@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="17.117">
+    <testcase classname="BigBasket URL" name="To validate the title of Bigbasket" time="16.847">
+        <system-out><![CDATA[Given User is on the login page.............................................passed
+Then the title of the page should be "Online Grocery Shopping and Online Supermarket in India - bigbasket".passed
+]]></system-out>
+    </testcase>
+</testsuite>

@@ -1,0 +1,54 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-10-08T11:09:12.403Z",
+        "line": 2,
+        "name": "To validate the title of Bigbasket",
+        "description": "",
+        "id": "bigbasket-url;to-validate-the-title-of-bigbasket",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 15909989400,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "User is on the login page",
+            "match": {
+              "location": "StepDefinition.LoginStepDef.user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 915583200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "the title of the page should be \"Online Grocery Shopping and Online Supermarket in India - bigbasket\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Online Grocery Shopping and Online Supermarket in India - bigbasket",
+                  "offset": 33
+                }
+              ],
+              "location": "StepDefinition.LoginStepDef.the_title_of_the_page_should_be_something(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "BigBasket URL",
+    "description": "",
+    "id": "bigbasket-url",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/Features/LoginBB.feature",
+    "tags": []
+  }
+]
