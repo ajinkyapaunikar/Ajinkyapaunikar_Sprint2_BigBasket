@@ -4,6 +4,8 @@
   <test thread-count="5" name="Test">
   <classes>
   <class name="MyRunner.LoginRunner"/>
+  <class name="MyRunner.OfferRunner"/>
+  <class name="MyRunner.DealsOfWeekRunner"/>
   </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
